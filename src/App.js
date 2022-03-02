@@ -1,25 +1,27 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-import Addition from "./components/addition/Addition";
-import Subs from "./components/subs/Subs";
-import Mul from "./components/mul/Mul";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Demo Calculadora con Reactjs - Javier Andoni</p>
-        <Addition />
-        <Subs />
-        <Mul />
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        <p>
+          Edit <code>src/App.js</code> and save.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Learn React
         </a>
       </header>
     </div>
   );
+
 }
 
 export default App;
