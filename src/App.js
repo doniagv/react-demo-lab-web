@@ -1,4 +1,3 @@
-
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,9 +6,7 @@ import Subs from "./components/subs/Subs";
 import Mul from "./components/mul/Mul";
 import Div from "./components/div/Div";
 
-
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -19,19 +16,13 @@ function App() {
         <Subs />
         <Mul />
         <Div />
+
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           Learn React
         </a>
       </header>
     </div>
   );
-
 }
 
 export default App;
