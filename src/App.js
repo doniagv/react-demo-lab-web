@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Demo Calculadora con Reactjs</p>
+        <p>Demo Calculadora con Reactjs - Javier Andoni</p>
         <Addition />
         <Subs />
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
