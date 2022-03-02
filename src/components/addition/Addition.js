@@ -1,7 +1,7 @@
 import React from "react";
 
 const Addition = () => {
-  return <button> (+) </button>;
+  return <h1> (+) </h1>;
 };
 
 export default Addition;
