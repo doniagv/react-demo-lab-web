@@ -3,6 +3,7 @@ import "./App.css";
 
 import Addition from "./components/addition/Addition";
 import Subs from "./components/subs/Subs";
+import Mul from "./components/mul/Mul";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <p>Demo Calculadora con Reactjs - Javier Andoni</p>
         <Addition />
         <Subs />
+        <Mul />
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
